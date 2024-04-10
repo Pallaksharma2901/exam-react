@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.banner{
+    background-image: url('./images/slide_home_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner h1{
+    left: 27%;
+    top: 50%;
+}
+
+.banner button{
+    border: 2px solid #ffff;
+    padding: 10px 10px;
+    font-size: 20px;
+    left: 45%;
+    top: 63%;
+    font-weight: 700;
+}
+
+.banner button:hover{
+    background-color: bisque;
+    color: #000;
+    border: none;
+}
